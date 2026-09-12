@@ -1,3 +1,5 @@
+#This code produces the bar graphs for the measurements lab.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -97,7 +99,7 @@ true_density_2 = slope_2
 
 # ============================================================
 # EXPERIMENT 3
-# Penny
+# Penny - THREE TRIALS
 # ============================================================
 
 # Penny measurements
@@ -119,13 +121,13 @@ penny_volume = np.pi * radius**2 * height
 # Calculate density for each trial
 densities_3 = penny_masses / penny_volume
 
-trials_3 = np.arange(1, 3)
+# Three trials
+trials_3 = np.arange(1, len(penny_masses) + 1)
 
 # Average density
 average_density_3 = np.mean(densities_3)
 
-# Since the penny has the same mass and volume for both trials,
-# the measured density is also the true/calculated density.
+# True/calculated density
 true_density_3 = average_density_3
 
 
