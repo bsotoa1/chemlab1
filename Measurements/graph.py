@@ -103,6 +103,7 @@ true_density_2 = slope_2
 # Penny measurements
 penny_masses = np.array([
     2.51,
+    2.51,
     2.51
 ])
 
