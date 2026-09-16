@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # THREE EXPERIMENT DENSITY BAR GRAPHS
 # ============================================================
 # Experiment 1: 100 mL Graduated Cylinder
-# Experiment 2: 50 mL Beaker
+# Experiment 2: Volumetric Pipette 
 # Experiment 3: Penny
 # ============================================================
 
@@ -57,7 +57,7 @@ true_density_1 = slope_1
 
 # ============================================================
 # EXPERIMENT 2
-# 50 mL Beaker
+# Volumetric Pipette
 # ============================================================
 
 initial_mass_2 = 33.80  # g
@@ -153,7 +153,7 @@ print(f"True Density:    {true_density_1:.3f} g/mL")
 
 print("\n")
 print("=" * 60)
-print("EXPERIMENT 2 - 50 mL BEAKER")
+print("EXPERIMENT 2 - Volumetric Pipette")
 print("=" * 60)
 
 for i in range(len(trials_2)):
@@ -311,7 +311,7 @@ create_bar_graph(
     densities_2,
     average_density_2,
     true_density_2,
-    "Experiment 2: Density Using a 50 mL Beaker",
+    "Experiment 2: Density Using a Volumetric Pipetter",
     "orange",
     "experiment_2_density.png"
 )
